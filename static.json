@@ -1,0 +1,5 @@
+{
+  "root": "server/index",
+  "clean_urls": true,
+  "error_page": "\u001b[A\u001b[Bserver"
+}
