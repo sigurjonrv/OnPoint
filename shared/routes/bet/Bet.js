@@ -3,14 +3,22 @@ import Segment from 'components/segment';
 import Helmet from 'react-helmet';
 import Fight from 'components/Fight';
 
+const eventDb = require('assets/data/event.json');
+
+const FIGHT = eventDb.map(fight =>
+  <span key={fight.id}>
+    <Fight fightID={fight} />
+  </span>
+);
+
 export default class Bet extends Component {
   render() {
     return (
       <div>
         <Helmet title="Bet" />
         <Segment>
-          <h1>Bet</h1>
-          <Fight />
+          {FIGHT}
+
         </Segment>
       </div>
     );
