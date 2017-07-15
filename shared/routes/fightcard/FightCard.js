@@ -11,14 +11,13 @@ const FIGHT = eventDb.map(fight =>
   </span>
 );
 
-export default class Bet extends Component {
+export default class FightCard extends Component {
   render() {
     return (
       <div>
         <Helmet title="Bet" />
         <Segment>
           {FIGHT}
-
         </Segment>
       </div>
     );

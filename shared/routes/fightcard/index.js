@@ -6,4 +6,4 @@
 //   name: 'About',
 // });
 
-export default from './Bet';
+export default from './FightCard';

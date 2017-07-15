@@ -18,7 +18,7 @@ import About from './routes/about';
 import Planets from './routes/planets';
 import Fighters from './routes/fighters';
 import NotFound from './routes/not-found';
-import Bet from './routes/bet';
+import FightCard from './routes/fightcard';
 
 export default function App() {
   return (
@@ -33,7 +33,7 @@ export default function App() {
           <Route exact path="/about" component={About} />
           <Route path="/planets" component={Planets} />
           <Route path="/fighters" component={Fighters}/>
-          <Route path="/bet" component={Bet} />
+          <Route path="/fightcard" component={FightCard} />
           <Route component={NotFound} />
         </Switch>
         <DevTools />

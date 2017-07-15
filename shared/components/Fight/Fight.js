@@ -58,40 +58,40 @@ export default class Fight extends Component {
             </div>
             <div className="row">
               <div className="col-xs-6">
-                <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">{fightID.fighter1_first_name} {fightID.fighter1_last_name}</button></p>
+                <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">{fightID.fighter1_first_name} {fightID.fighter1_last_name}</button></p>
               </div>
               <div className="col-xs-6">
-                <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">{fightID.fighter2_first_name} {fightID.fighter2_last_name}</button></p>
+                <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">{fightID.fighter2_first_name} {fightID.fighter2_last_name}</button></p>
               </div>
             </div>
             <div className="row">
               <div className="col-xs-4">
-                <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">KO/TKO</button></p>
+                <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">KO/TKO</button></p>
               </div>
               <div className="col-xs-4">
-                <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">SUB</button></p>
+                <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">SUB</button></p>
               </div>
               <div className="col-xs-4">
-                <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">DEC</button></p>
+                <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">DEC</button></p>
               </div>
             </div>
             <div className="row">
               <div className="col-xs-12 col-xs-offset-1">
                 <div className="row">
                   <div className="col-xs-2">
-                    <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">RD 1</button></p>
+                    <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">RD 1</button></p>
                   </div>
                   <div className="col-xs-2">
-                    <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">RD 2</button></p>
+                    <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">RD 2</button></p>
                   </div>
                   <div className="col-xs-2">
-                    <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">RD 3</button></p>
+                    <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">RD 3</button></p>
                   </div>
                   <div className="col-xs-2">
-                    <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">RD 4</button></p>
+                    <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">RD 4</button></p>
                   </div>
                   <div className="col-xs-2">
-                    <p><br/><button type="button" className="btn btn-defult btn-lg btn-block">RD 5</button></p>
+                    <p><br /><button type="button" className="btn btn-defult btn-lg btn-block">RD 5</button></p>
                   </div>
                 </div>
               </div>
